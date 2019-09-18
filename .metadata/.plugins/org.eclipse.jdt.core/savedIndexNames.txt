@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/Users/sofi/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3303796325.index
+2617037001.index
+1992065012.index
+1551614724.index
+113436595.index

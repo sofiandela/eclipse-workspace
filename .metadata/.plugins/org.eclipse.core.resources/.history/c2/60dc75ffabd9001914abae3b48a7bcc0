@@ -1,0 +1,29 @@
+package ar.edu.edu.pb1.trabajopractico01.to03.dominio;
+
+public class Alarma {
+
+	public Alarma() {
+		// TODO Auto-generated constructor stub
+		
+		private Sensor sensorDeMovimiento;
+		private Sensor sensorDeContacto;
+		private Sensor sensorDeSonido;
+		private boolean encendida;
+		private int codigoDeSeguridad;
+		
+		
+		//en el constructor es recomendable INICIALIZAD cada una de las variables
+		puclic Alarma(int codigoDeSeguridad) {
+			this.codigoDeSeguridad = codigoDeSeguridad;
+			this.encendida = false;
+		}
+		
+//		para encender la alarma necesitamos el codigo de seguridad, para encender a esta alarma en particular necesito este codigo de seguridad en particular 
+		
+		public void encender(int codigoDeSeguridad) {
+			if(codigoDeSeguridad == this.codigoDeSeguridad) {}
+			
+		}
+	}
+
+}

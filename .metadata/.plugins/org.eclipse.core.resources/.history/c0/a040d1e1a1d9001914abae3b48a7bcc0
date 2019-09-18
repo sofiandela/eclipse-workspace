@@ -1,0 +1,9 @@
+package ar.edu.edu.pb1.trabajopractico01;
+
+public class Letra {
+
+	public Letra() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

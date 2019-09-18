@@ -1,0 +1,51 @@
+package ar.edu.edu.pb1.trabajopractico01;
+
+public class Letra {
+	
+	private char caracter;
+	
+	public Letra(char caracter) {
+		this.caracter = caracter;
+	}
+	//CHAR CHARACTER es una variable "nueva"que va a devolver algo
+	
+	public boolean esVocal() {
+		
+		boolean resultado;
+		
+		switch(caracter) {
+		case 'a':
+			resultado = true;
+			break;
+
+		case 'e':
+			resultado = true;
+			break;
+
+		case 'i':
+			resultado = true;
+			break;
+		case 'o':
+			resultado = true;
+			break;
+
+		case 'u' :
+			resultado = true;
+			break;
+			
+		default:
+			resultado = false;
+			
+		
+			
+		}
+		
+		
+		return resultado;
+	}
+	
+	
+
+	
+	
+}
