@@ -1,9 +1,0 @@
-package ar.edu.edu.pb1.trabajopractico01;
-
-public interface identificarLetra {
-	
-	Letra algunaLetra = new Letra('j');
-	
-	Sistem.out.prinrln(algunaLetra); 
-
-}
