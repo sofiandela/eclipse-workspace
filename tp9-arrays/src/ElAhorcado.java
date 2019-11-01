@@ -14,22 +14,28 @@ public class ElAhorcado {
 		
 		System.out.println("Bienvenido al juego del ahorcado!");
 		
-		for(int i = 0; i<jugadores.length; i++ ) {
 			
 			System.out.println("Ingrese el nombre del jugador 1: ");
-			jugadores[i] = add(jugadores, teclado.next(););
-			jugadores[i] = teclado.next();
+			
+			jugadores[0] = teclado.next();
+			
 			System.out.println("Ingrese el nombre del jugador 2: ");
-			jugadores[i] = teclado.next();
+			jugadores[1] = teclado.next();
 			System.out.println("Ya estamos listos para empezar!");
 			
-			
-			System.out.println(jugadores[i] + ", Ingrese una palabra:");
-			
+			System.out.println(jugadores[0] + ", Ingrese una palabra:");
 			palabra = teclado.next();
 			
+			System.out.println(jugadores[1] + ", Ingrese una palabra:");
+			palabra2 = teclado.next();
 			
-		}
+			if(jugadores[0]){
+				System.out.println("El jugador " + jugadores[0] + " comienda la partida!");
+			}else{
+				System.out.println("El jugador " + jugadores[1] + " comienda la partida!");
+			}
+			
+			
 		
 		
 //		System.out.println(jugadores[0] + " Ingrese la palabra para que la adivine " + jugadores[1]);
